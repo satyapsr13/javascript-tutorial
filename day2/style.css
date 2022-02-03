@@ -1,0 +1,22 @@
+
+.div{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 140);
+    margin: 10px;
+    font-size: 50px;
+}
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (max-width: 800px) {
+    .flexbox {
+        flex-direction: column;
+    }
+}
