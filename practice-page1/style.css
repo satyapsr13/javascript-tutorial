@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main-row {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 25%;
+}
+
+@media screen and (max-width : 320px) {
+    .nav-element {
+        font: 1rem;
+    }
+}
+
+@media screen and (max-width : 1204px) {
+    body {
+        font: 40px;
+    }
+}
+
+.nav-element {
+    width: 80%;
+    background-color: blue;
+    height: 80px;
+    margin: 20px;
+    /* justify-content: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+
+}
+
+.left-navbar {
+    width: 25%;
+    /* position: absolute; */
+    background-color: aqua;
+    height: 100vh;
+    /* flex-: ; */
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-screen {
+    width: 71.5%;
+    background-color: rgb(179, 255, 0);
+    /* height: 100vh; */
+    position: absolute;
+    right: 0;
+    padding: 20px;
+    background-image: url("https://w7.pngwing.com/pngs/501/438/png-transparent-man-using-laptop-illustration-web-development-web-developer-web-design-web-development-text-computer-presentation-thumbnail.png" )  ;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
