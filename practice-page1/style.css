@@ -18,37 +18,37 @@
     width: 25%;
 }
 
-@media screen and (max-width : 320px) {
-    .nav-element {
-        font: 1rem;
-    }
-}
-
-@media screen and (max-width : 1204px) {
-    body {
-        font: 40px;
-    }
-}
 
 .nav-element {
-    width: 80%;
-    background-color: blue;
-    height: 80px;
+    background-color: rgb(255, 123, 0);
+    color: hsl(208, 100%, 97%);
+    width: 70%;
+    height: 60px;
     margin: 20px;
     /* justify-content: center; */
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2rem;
+    text-decoration: none;
+    text-decoration-line: none;
+    border-radius: 50px;
+    text-underline-position: above;
 
+}
+.nav-element:hover {
+    color: rgb(255, 123, 0);
+
+    background-color: hsl(208, 100%, 97%);
+    /* justify-content: right; */
+    /* padding-left: 10px; */
+    /* border-radius: 0%; */
 }
 
 .left-navbar {
     width: 25%;
-    /* position: absolute; */
-    background-color: aqua;
+    /* background-color: aqua; */
     height: 100vh;
-    /* flex-: ; */
     justify-content: flex-start;
     display: flex;
     flex-direction: column;
@@ -61,7 +61,7 @@
     position: absolute;
     right: 0;
     padding: 20px;
-    background-image: url("https://w7.pngwing.com/pngs/501/438/png-transparent-man-using-laptop-illustration-web-development-web-developer-web-design-web-development-text-computer-presentation-thumbnail.png" )  ;
+    background-image: url("https://w7.pngwing.com/pngs/501/438/png-transparent-man-using-laptop-illustration-web-development-web-developer-web-design-web-development-text-computer-presentation-thumbnail.png");
     background-size: contain;
     background-repeat: no-repeat;
 
